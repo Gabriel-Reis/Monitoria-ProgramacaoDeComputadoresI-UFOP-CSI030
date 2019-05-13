@@ -2,18 +2,18 @@
 
 int main (void){
 
-int x,r,y;
-y = 1;
+int x,resp,aux;
+aux = 1;
 
 printf("Digite um numero para exibir a tabuada:     ");
 scanf("%d", &x);
 
 printf ("Tabuada do %d:\n\n",x);
-while (y<=10){
+while (aux<=x){
 
-        r=y*x,
-        printf("%d * %d = %d \n",y,x,r),
-        y++;
+        resp=aux*x;
+        printf("%d * %d = %d \n",aux,x,resp);
+        aux++;
     }
 return 0;
 }
