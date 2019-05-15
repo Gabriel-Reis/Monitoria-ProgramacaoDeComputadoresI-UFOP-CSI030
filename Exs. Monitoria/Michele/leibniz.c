@@ -13,6 +13,7 @@ int main (void){
         else
             result -= (double) 1/(i*2+1);
     }
+    result *=4; //Pois o resultado dá 1/4 do valor de Pi
     printf("Resultado: %f aproximacoes: %d",result,i);
     return 0;
 }
