@@ -1,6 +1,7 @@
 ### C ###
 # Prerequisites
 *.d
+*.s
 
 # Object files
 *.o
